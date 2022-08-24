@@ -4,7 +4,7 @@ from os.path import abspath, dirname, join
 
 from jsonschema.exceptions import SchemaError
 
-from rac_schema_validator import is_date, is_valid
+from rac_schema_validator import _is_date, is_valid
 from rac_schema_validator.exceptions import ValidationError
 
 base_path = dirname(dirname(abspath(__file__)))
@@ -16,9 +16,9 @@ class TestSchemas(unittest.TestCase):
 
     def test_is_date(self):
         for valid_date in ['2022', '2022-10', '2022-10-12']:
-            self.assertTrue(is_date(None, valid_date))
+            self.assertTrue(_is_date(None, valid_date))
         for invalid_date in [None, 2022, "2022/10", "October 2022"]:
-            self.assertFalse(is_date(None, invalid_date))
+            self.assertFalse(_is_date(None, invalid_date))
 
     def test_schema_validation(self):
         with self.assertRaises(SchemaError):

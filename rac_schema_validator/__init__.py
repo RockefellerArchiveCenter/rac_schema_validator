@@ -5,7 +5,7 @@ import jsonschema
 from .exceptions import ValidationError
 
 
-def is_date(value, instance):
+def _is_date(value, instance):
     if not isinstance(instance, str):
         return False
     if instance.count("-") == 2:
@@ -36,9 +36,9 @@ def is_valid(data, object_schema, base_schema=None):
     resolver = jsonschema.RefResolver.from_schema(
         base_schema) if base_schema else None
     type_checker = jsonschema.Draft7Validator.TYPE_CHECKER.redefine(
-        "date", is_date)
+        "date", _is_date)
     validators = jsonschema.Draft7Validator.VALIDATORS
-    validators["date"] = is_date
+    validators["date"] = _is_date
     CustomValidator = jsonschema.validators.extend(
         jsonschema.Draft7Validator,
         type_checker=type_checker,
