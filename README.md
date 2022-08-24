@@ -3,15 +3,10 @@
 Validators for RAC JSONSchemas.
 
 ## Requirements
-*   Python 3.9 or higher
-*   [jsonschema](https://python-jsonschema.readthedocs.io/en/stable/)
-*   [tox](https://tox.readthedocs.io/) (for running tests)
-*   [pre-commit](https://pre-commit.com/) (for running linters before committing)
-    *   After installing pre-commit, install the git-hook scripts:
-
-    ```
-    $ pre-commit install
-    ```
+- Python 3.9 or higher
+- [jsonschema](https://python-jsonschema.readthedocs.io/en/stable/)
+- [tox](https://tox.readthedocs.io/) (for running tests)
+- [pre-commit](https://pre-commit.com/) (for running linters before committing)
 
 ## Installation
 
@@ -19,6 +14,12 @@ The recommended way to install this package is using `pip`:
 
 ```
 pip install rac_schema_validator
+```
+
+After installing pre-commit, install the git-hook scripts:
+
+```
+$ pre-commit install
 ```
 
 ## Usage
