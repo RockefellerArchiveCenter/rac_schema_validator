@@ -3,7 +3,7 @@
 Validators for RAC JSONSchemas.
 
 ## Requirements
-- Python 3.9 or higher
+- Python 3.10 or greater
 - [jsonschema](https://python-jsonschema.readthedocs.io/en/stable/)
 - [tox](https://tox.readthedocs.io/) (for running tests)
 - [pre-commit](https://pre-commit.com/) (for running linters before committing)
