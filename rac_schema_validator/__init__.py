@@ -1,6 +1,8 @@
 import re
 
 import jsonschema
+from referencing import Registry
+from referencing.jsonschema import DRAFT202012
 
 from .exceptions import ValidationError
 
@@ -33,17 +35,21 @@ def is_valid(data, object_schema, base_schema=None):
         if arg and not isinstance(arg, dict):
             raise TypeError(f"`{arg}` must be a dict, got {type(arg)} instead")
 
-    resolver = jsonschema.RefResolver.from_schema(
-        base_schema) if base_schema else None
-    type_checker = jsonschema.Draft7Validator.TYPE_CHECKER.redefine(
+    registry = Registry().with_resource(
+        base_schema['$id'],
+        DRAFT202012.create_resource(base_schema),
+    ) if base_schema else None
+    type_checker = jsonschema.Draft202012Validator.TYPE_CHECKER.redefine(
         "date", _is_date)
-    validators = jsonschema.Draft7Validator.VALIDATORS
+    validators = jsonschema.Draft202012Validator.VALIDATORS
     validators["date"] = _is_date
     CustomValidator = jsonschema.validators.extend(
-        jsonschema.Draft7Validator,
+        jsonschema.Draft202012Validator,
         type_checker=type_checker,
         validators=validators)
-    validator = CustomValidator(object_schema, resolver=resolver)
+    validator = CustomValidator(
+        object_schema,
+        registry=registry) if registry else CustomValidator(object_schema)
     try:
         validator.check_schema(validator.schema)
         validator.validate(data)
