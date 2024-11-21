@@ -4,7 +4,7 @@
 	"type": "object",
 	"title": "RAC JSON Schema",
 	"allOf": [{
-		"$id": "#/object",
+		"$id": "/object",
 		"type": "object",
 		"title": "Archival Object",
 		"required": [
@@ -22,7 +22,7 @@
 		],
 		"properties": {
 			"category": {
-				"$id": "#/object/properties/category",
+				"$id": "/object/properties/category",
 				"type": "string",
 				"title": "Object Category",
 				"enum": [
@@ -30,7 +30,7 @@
 				]
 			},
 			"title": {
-				"$id": "#/object/properties/title",
+				"$id": "/object/properties/title",
 				"type": "string",
 				"title": "Object Title",
 				"examples": [
@@ -39,7 +39,7 @@
 				"pattern": "^(.*)$"
 			},
 			"type": {
-				"$id": "#/object/properties/type",
+				"$id": "/object/properties/type",
 				"type": "string",
 				"minLength": 1,
 				"enum": [
