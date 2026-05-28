@@ -1,6 +1,6 @@
 # rac_schema_validator
 
-Validators for RAC JSONSchemas.
+Validators for RAC-specific JSONSchemas.
 
 ## Requirements
 - Python 3.10 or greater
