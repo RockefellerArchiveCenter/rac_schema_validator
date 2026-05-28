@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.1](https://github.com/RockefellerArchiveCenter/rac_schema_validator/compare/rac-schema-validator-v1.1.0...rac-schema-validator-v1.1.1) (2026-05-28)
+
+
+### Bug Fixes
+
+* fix publish ([1243857](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/12438578cd816315f69e8423ed84b9eb50fdfcbe))
+* Fix pythonpublish ([1243857](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/12438578cd816315f69e8423ed84b9eb50fdfcbe))
+* make pythonpublish verbose ([7fff4c2](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/7fff4c23bd56ab4a57342d6df70682477a15b359))
+* make pythonpublish verbose ([7fff4c2](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/7fff4c23bd56ab4a57342d6df70682477a15b359))
+* make pythonpublish verbose ([7a4bd01](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/7a4bd01be2c3e1769bef76307b655b91cabf0313))
+* update setup.py ([7b8d4d9](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/7b8d4d996415ea486a9b30c6731aea7b69f2eb1c))
+
 ## [1.1.0](https://github.com/RockefellerArchiveCenter/rac_schema_validator/compare/rac-schema-validator-v1.0.1...rac-schema-validator-v1.1.0) (2026-05-28)
 
 
