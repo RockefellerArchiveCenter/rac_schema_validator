@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.2](https://github.com/RockefellerArchiveCenter/rac_schema_validator/compare/rac-schema-validator-v1.1.1...rac-schema-validator-v1.1.2) (2026-06-18)
+
+
+### Bug Fixes
+
+* update enforcer ([1d1b095](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/1d1b0957c995c4795e2c13ec6d5ed9695feafc28))
+* update enforcer ([30fb335](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/30fb335fe6ddaf039430c8d5b12df498075efbc6))
+* update publish ([f68c72c](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/f68c72cb8dde1f64d20ee407dcab50179cb1dc5a))
+* update workflows ([0fb46d7](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/0fb46d7b8ea618ab0c38a41b3592b4e942d0079c))
+* update workflows ([0fb46d7](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/0fb46d7b8ea618ab0c38a41b3592b4e942d0079c))
+* update workflows ([1d1b095](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/1d1b0957c995c4795e2c13ec6d5ed9695feafc28))
+
 ## [1.1.1](https://github.com/RockefellerArchiveCenter/rac_schema_validator/compare/rac-schema-validator-v1.1.0...rac-schema-validator-v1.1.1) (2026-05-28)
 
 
