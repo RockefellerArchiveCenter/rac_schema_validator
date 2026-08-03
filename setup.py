@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='rac-schema-validator',
-      version='1.1.3',
+      version='1.1.4',
       description='Validator for RAC JSON Schemas',
       url='http://github.com/RockefellerArchiveCenter/rac_schema_validator',
       author='Rockefeller Archive Center',
