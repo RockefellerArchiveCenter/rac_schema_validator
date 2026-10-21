@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.7](https://github.com/RockefellerArchiveCenter/rac_schema_validator/compare/rac-schema-validator-v1.1.6...rac-schema-validator-v1.1.7) (2026-10-21)
+
+
+### Bug Fixes
+
+* update pip ([4dcb230](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/4dcb23099e7f401966835cba3643af21f1d094c1))
+* update pip ([4dcb230](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/4dcb23099e7f401966835cba3643af21f1d094c1))
+* update pip ([a0ef0a8](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/a0ef0a840c3db50c86e569e44e08898924350247))
+* update pip ([a0ef0a8](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/a0ef0a840c3db50c86e569e44e08898924350247))
+* update pip ([84d875a](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/84d875a5bdb6755c1ef283767f5ed567227bc9a1))
+
 ## [1.1.6](https://github.com/RockefellerArchiveCenter/rac_schema_validator/compare/rac-schema-validator-v1.1.5...rac-schema-validator-v1.1.6) (2026-10-05)
 
 
