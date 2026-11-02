@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.8](https://github.com/RockefellerArchiveCenter/rac_schema_validator/compare/rac-schema-validator-v1.1.7...rac-schema-validator-v1.1.8) (2026-11-02)
+
+
+### Bug Fixes
+
+* **deps:** Scheduled dependency updates ([e36fb6e](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/e36fb6e349ae6b6a4ee78a2a3e5d776192f4689b))
+* **deps:** Scheduled dependency updates ([e36fb6e](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/e36fb6e349ae6b6a4ee78a2a3e5d776192f4689b))
+* **deps:** Scheduled dependency updates ([fdf7ce9](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/fdf7ce98d3b688c777c3e51003abbedeade7a141))
+* **deps:** Scheduled dependency updates ([fdf7ce9](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/fdf7ce98d3b688c777c3e51003abbedeade7a141))
+* **deps:** Scheduled dependency updates ([830cf94](https://github.com/RockefellerArchiveCenter/rac_schema_validator/commit/830cf94a1cd9ca9623ac16b536caec8f00e8bc7e))
+
 ## [1.1.7](https://github.com/RockefellerArchiveCenter/rac_schema_validator/compare/rac-schema-validator-v1.1.6...rac-schema-validator-v1.1.7) (2026-10-21)
 
 
